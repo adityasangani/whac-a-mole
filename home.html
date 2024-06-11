@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Whac'a'mole</title>
+    <title>Whack a Mole!</title>
     <link rel="stylesheet" href="home.css" />
   </head>
   <body>
     <h1>Whac a Mole</h1>
-    <div class="start">
-      <a href="difficulty.html"
-        ><button class="button-87" role="button">Click here to start</button></a
-      >
-    </div>
+    <h2 id="score">Score: 0</h2>
+    <h2 id="highscore">High score: 0</h2>
+    <button class="button-87" role="button" id="restart">Restart</button>
+    <div id="board"></div>
+
+    <script src="mole.js"></script>
   </body>
 </html>
